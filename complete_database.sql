@@ -445,9 +445,6 @@ END //
 DELIMITER ;
 
 DELIMITER //
-
-DROP PROCEDURE IF EXISTS CancelTicket //
-
 CREATE PROCEDURE CancelTicket(
     IN p_pnr_number VARCHAR(10),
     OUT p_message VARCHAR(255)
